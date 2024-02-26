@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import { useQuery } from "react-query";
+import MovieView from "./views/MovieView";
 const fetchUsers = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   return res.json();
@@ -18,6 +19,11 @@ const App = () => {
           ))}
         </div>
       )}
+
+<header className="py-5 bg-gray-700 text-white text-center">
+          Popular movies
+        </header>
+        <MovieView></MovieView>
     </div>
   );
 };
