@@ -15,3 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Reference link :- 
+https://builtin.com/software-engineering-perspectives/use-query-react
+https://dev.to/otamnitram/react-query-a-practical-example-167j
