@@ -10,7 +10,13 @@ const App = () => {
   const { data, status } = useQuery("users", fetchUsers);
   return (
     <div className="App">
-      {status === "error" && <p>Error fetching data</p>}
+     
+
+<header className="py-5 bg-gray-700 text-white text-center">
+          Popular movies
+        </header>
+        <MovieView></MovieView>
+        {status === "error" && <p>Error fetching data</p>}
       {status === "loading" && <p>Fetching data...</p>}
       {status === "success" && (
         <div>
@@ -19,11 +25,6 @@ const App = () => {
           ))}
         </div>
       )}
-
-<header className="py-5 bg-gray-700 text-white text-center">
-          Popular movies
-        </header>
-        <MovieView></MovieView>
     </div>
   );
 };
