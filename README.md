@@ -1,4 +1,4 @@
-![Alt text](https://github.com/mohankr123/usequery-reacthook/blob/main/public/preview.png?raw=true "React ROUTING DOM")
+![Alt text](https://github.com/mohankr123/usequery-reacthook/blob/master/public/preview.png?raw=true "React ROUTING DOM")
 
 # REACT UseQuery Hook
 
